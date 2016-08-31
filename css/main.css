@@ -1,0 +1,30 @@
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+.container-fluid{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.img-center img{
+
+	margin: auto;
+	margin-bottom: 30px;
+}
