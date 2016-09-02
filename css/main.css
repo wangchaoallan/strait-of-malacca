@@ -14,12 +14,16 @@
     }
 }
 
-@media (min-width: 768px){
+ @media (min-width: 768px){
 
-#menus .container{
+.menu-top  {
     width: 750px;
+    margin: auto;
 }
+
 }
+
+
 
 #story{
 	padding-top: 100px;
@@ -128,3 +132,10 @@ a.btn-secondary:hover, .btn-secondary:hover, a.btn-secondary:active, .btn-second
     .list-inline li{
         margin-bottom: 5px;
     }
+
+.img-margin-bottom{
+margin-bottom: 30px;
+}
+.recommended{
+    margin-top: 80px;
+}
