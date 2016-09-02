@@ -23,8 +23,39 @@
     background-color: #f6f6f6;
 }
 
-.img-center img{
+.aboutUs-img{
+    margin: 25px 0 25px 0;
+}
+.description_content {
+    padding: 50px 0;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto 0 auto;
+    z-index: 99;
+    position: relative;
+    text-align: center; 
+}
+.description_body {
+    margin: 45px auto;
+    max-width: 300px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 900;
+    width: 225px;
+    letter-spacing: 0.040em;
+    border: 1px solid #2f2e2f;
+    display: inline-block;
+    padding: 7px 16px;
+    margin: 0;
+}
 
-	margin: auto;
-	margin-bottom: 30px;
+p.desc-text{
+        font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.img-section-space {
+    margin-top: 5px;
 }
