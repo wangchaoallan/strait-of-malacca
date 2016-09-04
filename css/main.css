@@ -1,9 +1,11 @@
+.handWriting{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 16px;
+}
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
-
     margin: auto;
 }
-
 .carousel-caption h3 {
     color: #fff !important;
 }
@@ -195,7 +197,12 @@ a.btn-secondary:hover, .btn-secondary:hover, a.btn-secondary:active, .btn-second
     padding: 100px 0;
 }
 
-
+.bg-grey{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
@@ -237,15 +244,17 @@ footer .glyphicon {
 }
 
  .navbar {
-      margin-bottom: 0;
-      background-color: #f4511e;
-      z-index: 9999;
-      border: 0;
-      font-size: 12px !important;
-      line-height: 1.42857143 !important;
-      letter-spacing: 4px;
-      border-radius: 0;
-      font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #a2343d;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-family: arial;
+    text-transform: uppercase;
+
   }
   .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
