@@ -1,6 +1,10 @@
 .handWriting{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 16px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.2em;
+}
+
+.title-descrption{
+    font-family: 'Arima Madurai', cursive;
 }
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
@@ -79,7 +83,6 @@ h1 {
 }
 
 p.desc-text{
-    font-size: 17px;
     line-height: 23px;
     text-align: justify;
 }
@@ -266,4 +269,8 @@ footer .glyphicon {
   .navbar-default .navbar-toggle {
       border-color: transparent;
       color: #fff !important;
+  }
+
+  footer p{
+    font-size: 11px;
   }
