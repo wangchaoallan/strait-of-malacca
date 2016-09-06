@@ -31,4 +31,9 @@ $(document).ready(function(){
       }
     });
   });
+
+//change the time intervel about Slide show
+  $('.carousel').carousel({
+  interval: 300 * 10
+});
 })

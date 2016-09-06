@@ -1,15 +1,18 @@
 .handWriting{
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 1.2em;
+    font-family: 'Kalam', cursive;
+    font-size: 1.3em;
 }
 
 .title-descrption{
     font-family: 'Arima Madurai', cursive;
+    font-size: 3em;
 }
-.carousel-inner img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
+
+.carousel-inner {
+ width: 100%;
+ max-height: 905px !important;
 }
+
 .carousel-caption h3 {
     color: #fff !important;
 }
@@ -18,6 +21,7 @@
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+
 }
 
 @media (min-width: 768px){
@@ -29,17 +33,20 @@
 
 }
 
+#myCarousel{
+        margin-top: 50px;
+}
 
 
 #story{
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 
 }
 
 #menus{
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #f5f5f5;
 
 }
@@ -71,14 +78,13 @@
     margin: 45px auto;
     max-width: 300px;
 }
-h1 {
-    font-size: 28px;
+.description_content h1 {
     font-weight: 900;
     width: 225px;
     letter-spacing: 0.040em;
-    border: 1px solid #2f2e2f;
+    border: 2px solid #151313;
     display: inline-block;
-    padding: 7px 16px;
+    padding: 6px 16px;
     margin: 0;
 }
 
@@ -197,7 +203,7 @@ a.btn-secondary:hover, .btn-secondary:hover, a.btn-secondary:active, .btn-second
 }
 
 #contactUs{
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .bg-grey{
@@ -209,7 +215,7 @@ a.btn-secondary:hover, .btn-secondary:hover, a.btn-secondary:active, .btn-second
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #f4511e;
+  color: #a2343d;
 }
 
 .slideanim {visibility:hidden;}
